@@ -235,7 +235,7 @@ td:nth-child(2),td:nth-child(5){white-space:nowrap}
 .tl .d.g{color:var(--green)}
 .tl b{font-size:15px}
 .tl p{font-size:14px;color:var(--muted);margin-top:4px}
-.boxes{grid-template-columns:1fr 1fr}
+.boxes{grid-template-columns:1fr}
 @media (max-width:980px){.traits{grid-template-columns:1fr 1fr}.boxes{grid-template-columns:1fr}}
 @media (max-width:980px){.steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:520px){.steps{grid-template-columns:1fr}}
@@ -298,27 +298,26 @@ td:nth-child(2),td:nth-child(5){white-space:nowrap}
 
 <section class="block block--tint">
   <div class="wide">
-    <p class="seclabel">02 · Lo acordado</p>
-    <h2 class="bigt">Reunión del <span class="grad">13 de octubre</span></h2>
+    <p class="seclabel">02 · Alcance</p>
+    <h2 class="bigt">Alcance <span class="grad">del video</span></h2>
     <div class="traits">
       <div class="trait"><span class="tk">Enfoque</span><h3>Toma de decisiones</h3><p>El video muestra cómo los datos llevan a una decisión de mantenimiento. No explica las características del sensor.</p></div>
       <div class="trait"><span class="tk">Estética</span><h3>2D minimalista</h3><p>Diseño minimalista de líneas azules finas sobre fondo blanco. Máquina genérica y operario delineados.</p></div>
       <div class="trait"><span class="tk">SMK</span><h3>Modelo 3D realista</h3><p>Único elemento en 3D. Realista en todas sus apariciones. Aparece como el equipo que entrega los datos, sin explicar el producto.</p></div>
-      <div class="trait"><span class="tk">Aceite</span><h3>Amarillo, animación sencilla</h3><p>Único color del video. Recorre las escenas. Sin simulación de fluidos 3D.</p>
-        <div class="swatches" aria-label="Paleta"><i style="background:#2B3BE0"></i><i style="background:#8FA4F5"></i><i style="background:#ffffff"></i><i style="background:#F2C230"></i></div></div>
+      <div class="trait"><span class="tk">Aceite</span><h3>Amarillo, animación sencilla</h3><p>Único color del video. Recorre las escenas. Sin simulación de fluidos 3D.</p></div>
     </div>
   </div>
 </section>
 
 <section class="block">
   <div class="wide">
-    <p class="seclabel">03 · Alcance</p>
-    <h2 class="bigt">Lo que <span class="grad">entregamos</span></h2>
+    <p class="seclabel">03 · Propuesta</p>
+    <h2 class="bigt">La propuesta <span class="grad">incluye:</span></h2>
     <ol class="steps">
       <li><b>Guion visual</b><span>Tabla escena por escena con locución, imagen y texto en pantalla, a partir del storyboard.</span></li>
       <li><b>SMK en 3D</b><span>Modelado y render 3D del SMK a partir del CAD o de fotos de producto.</span></li>
       <li><b>Animación 2D</b><span>Animación 2D minimalista de las escenas del storyboard, con el aceite en amarillo, en la línea gráfica de los videos anteriores.</span></li>
-      <li><b>Sonido y entrega</b><span>Música de librería, efectos y mezcla con la locución. MP4 16:9, 1080p.</span></li>
+      <li><b>Sonido y entrega</b><span>Locución con IA, música de librería, efectos y mezcla. MP4 16:9, 1080p.</span></li>
     </ol>
   </div>
 </section>
@@ -328,7 +327,7 @@ td:nth-child(2),td:nth-child(5){white-space:nowrap}
     <p class="seclabel">04 · Cronograma</p>
     <h2 class="bigt">Cuatro semanas <span class="grad">desde la aprobación</span></h2>
     <ol class="tl">
-      <li><span class="d">Semana 1</span><div><b>Arranque</b><p>Revisión del storyboard, la locución y el material del SMK.</p></div></li>
+      <li><span class="d">Semana 1</span><div><b>Arranque</b><p>Revisión del storyboard y el material del SMK.</p></div></li>
       <li><span class="d g">Semana 1</span><div><b>Guion visual</b><p>Entrega del guion visual para aprobación.</p></div></li>
       <li><span class="d g">Semana 2</span><div><b>Styleframes</b><p>SMK en 3D, aceite y dos escenas 2D para aprobar el estilo.</p></div></li>
       <li><span class="d g">Semana 3</span><div><b>Primera versión</b><p>Video completo con locución y música. Primera ronda de ajustes.</p></div></li>
@@ -344,8 +343,7 @@ td:nth-child(2),td:nth-child(5){white-space:nowrap}
         <p class="seclabel">05 · Inversión</p>
         <h2 class="bigt">Video Output <span class="grad">2.500 €</span></h2>
         <div class="body-lg">
-          <p>Incluye guion visual, modelo 3D del SMK, animación 2D minimalista, sonido y dos rondas de ajustes.</p>
-          <p>La locución la entrega Atten2.</p>
+          <p>Incluye guion visual, modelo 3D del SMK, animación 2D minimalista, locución con IA, sonido y dos rondas de ajustes.</p>
         </div>
       </div>
       <div class="opts">
@@ -361,14 +359,10 @@ td:nth-child(2),td:nth-child(5){white-space:nowrap}
       </div>
     </div>
     <div class="boxes">
-      <div class="box"><span class="k">No incluye</span><ul>
-        <li>Grabación de la locución.</li>
-        <li>Versiones en otros idiomas.</li>
-        <li>Formatos adicionales (vertical, cuadrado).</li></ul></div>
-      <div class="box"><span class="k">Condiciones</span><ul>
+      <div class="box box--cond"><span class="k">Condiciones</span><ul>
         <li>50% al aprobar y 50% a la entrega final.</li>
         <li>Dos rondas de ajustes incluidas.</li>
-        <li>Para arrancar: CAD o fotos del SMK y la locución.</li>
+        <li>Para arrancar: CAD o fotos del SMK.</li>
         <li>Vigencia de la propuesta: 15 días.</li></ul></div>
     </div>
   </div>
@@ -380,7 +374,7 @@ td:nth-child(2),td:nth-child(5){white-space:nowrap}
   <div class="wide inner">
     <p class="hero__eyebrow">Siguiente paso</p>
     <h2 class="bigt">Aprobación <span class="grad">y arranque</span></h2>
-    <div class="body-lg" style="color:#C3D0E4"><p>Para arrancar necesitamos la aprobación, el CAD o fotos del SMK y la locución.</p></div>
+    <div class="body-lg" style="color:#C3D0E4"><p>Para arrancar necesitamos la aprobación y el CAD o fotos del SMK.</p></div>
     <div class="contact">
       <div><span>Email</span><b>ana@samsa.studio</b></div>
       <div><span>Web</span><b><a href="https://samsa.studio" target="_blank" rel="noopener">samsa.studio</a></b></div>
